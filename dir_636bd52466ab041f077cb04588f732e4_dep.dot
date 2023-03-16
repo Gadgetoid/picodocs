@@ -1,0 +1,11 @@
+digraph "pico_multicore/include/pico" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9b0518532b2df1183db348eb3c293c62 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_9b0518532b2df1183db348eb3c293c62.html"]
+  dir_636bd52466ab041f077cb04588f732e4 [shape=box, label="pico", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_636bd52466ab041f077cb04588f732e4.html"];
+  }
+  dir_80049ec721efe325411d59f8402ca4d2 [shape=box label="pico_sync" fillcolor="white" style="filled" color="red" URL="dir_80049ec721efe325411d59f8402ca4d2.html"];
+  dir_636bd52466ab041f077cb04588f732e4->dir_80049ec721efe325411d59f8402ca4d2 [headlabel="1", labeldistance=1.5 headhref="dir_000171_000029.html"];
+}

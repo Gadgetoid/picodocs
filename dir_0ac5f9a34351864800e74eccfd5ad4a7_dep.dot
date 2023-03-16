@@ -1,0 +1,15 @@
+digraph "pico_binary_info/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3dab16ea41ea245df7c2e3d74b6863f3 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="pico_binary_info" fontname="Helvetica", fontsize="10", URL="dir_3dab16ea41ea245df7c2e3d74b6863f3.html"]
+  subgraph clusterdir_0ac5f9a34351864800e74eccfd5ad4a7 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0ac5f9a34351864800e74eccfd5ad4a7.html"];
+    dir_0ac5f9a34351864800e74eccfd5ad4a7 [shape=plaintext label="include"];
+    dir_95efa077cf14a4cd28caa4bcad11a067 [shape=box label="pico" color="red" fillcolor="white" style="filled" URL="dir_95efa077cf14a4cd28caa4bcad11a067.html"];
+  }
+  }
+  dir_ee4ba4c32933fd9d1c9bce216e67756d [shape=box label="pico_base" fillcolor="white" style="filled" color="red" URL="dir_ee4ba4c32933fd9d1c9bce216e67756d.html"];
+  dir_95efa077cf14a4cd28caa4bcad11a067->dir_ee4ba4c32933fd9d1c9bce216e67756d [headlabel="1", labeldistance=1.5 headhref="dir_000015_000007.html"];
+}

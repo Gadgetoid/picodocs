@@ -1,0 +1,11 @@
+digraph "pico_stdio_semihosting/include/pico" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_61ad3710b607bf424d26ff260b5bf8ff {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_61ad3710b607bf424d26ff260b5bf8ff.html"]
+  dir_947da161a16ca2caa88d1d0ab5bf606c [shape=box, label="pico", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_947da161a16ca2caa88d1d0ab5bf606c.html"];
+  }
+  dir_8ce2dea2c70b96bce3071180a232ce85 [shape=box label="pico_stdio" fillcolor="white" style="filled" color="red" URL="dir_8ce2dea2c70b96bce3071180a232ce85.html"];
+  dir_947da161a16ca2caa88d1d0ab5bf606c->dir_8ce2dea2c70b96bce3071180a232ce85 [headlabel="1", labeldistance=1.5 headhref="dir_000190_000184.html"];
+}

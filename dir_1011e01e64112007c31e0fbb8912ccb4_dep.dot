@@ -1,0 +1,11 @@
+digraph "hardware_rtc/include/hardware" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3763567dd6a2ae0f568b32db18cb3b5f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_3763567dd6a2ae0f568b32db18cb3b5f.html"]
+  dir_1011e01e64112007c31e0fbb8912ccb4 [shape=box, label="hardware", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1011e01e64112007c31e0fbb8912ccb4.html"];
+  }
+  dir_ee4ba4c32933fd9d1c9bce216e67756d [shape=box label="pico_base" fillcolor="white" style="filled" color="red" URL="dir_ee4ba4c32933fd9d1c9bce216e67756d.html"];
+  dir_1011e01e64112007c31e0fbb8912ccb4->dir_ee4ba4c32933fd9d1c9bce216e67756d [headlabel="1", labeldistance=1.5 headhref="dir_000104_000007.html"];
+}

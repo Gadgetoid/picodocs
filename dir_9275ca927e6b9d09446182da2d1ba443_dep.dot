@@ -1,0 +1,11 @@
+digraph "hardware_pwm/include/hardware" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_578e04bd4c604d400604eff4408d0b3d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_578e04bd4c604d400604eff4408d0b3d.html"]
+  dir_9275ca927e6b9d09446182da2d1ba443 [shape=box, label="hardware", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9275ca927e6b9d09446182da2d1ba443.html"];
+  }
+  dir_ee4ba4c32933fd9d1c9bce216e67756d [shape=box label="pico_base" fillcolor="white" style="filled" color="red" URL="dir_ee4ba4c32933fd9d1c9bce216e67756d.html"];
+  dir_9275ca927e6b9d09446182da2d1ba443->dir_ee4ba4c32933fd9d1c9bce216e67756d [headlabel="1", labeldistance=1.5 headhref="dir_000098_000007.html"];
+}

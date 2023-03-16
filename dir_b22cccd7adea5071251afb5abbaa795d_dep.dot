@@ -1,0 +1,14 @@
+digraph "pico_cyw43_driver/cybt_shared_bus" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_de73905efd6b1ae30e025b488d6c95c3 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="pico_cyw43_driver" fontname="Helvetica", fontsize="10", URL="dir_de73905efd6b1ae30e025b488d6c95c3.html"]
+  dir_b22cccd7adea5071251afb5abbaa795d [shape=box, label="cybt_shared_bus", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b22cccd7adea5071251afb5abbaa795d.html"];
+  }
+  dir_8ce2dea2c70b96bce3071180a232ce85 [shape=box label="pico_stdio" fillcolor="white" style="filled" color="red" URL="dir_8ce2dea2c70b96bce3071180a232ce85.html"];
+  dir_254ef4e2977de847e2030dceeab20b97 [shape=box label="pico_stdlib" fillcolor="white" style="filled" color="red" URL="dir_254ef4e2977de847e2030dceeab20b97.html"];
+  dir_b22cccd7adea5071251afb5abbaa795d->dir_8ce2dea2c70b96bce3071180a232ce85 [headlabel="2", labeldistance=1.5 headhref="dir_000139_000184.html"];
+  dir_b22cccd7adea5071251afb5abbaa795d->dir_254ef4e2977de847e2030dceeab20b97 [headlabel="1", labeldistance=1.5 headhref="dir_000139_000026.html"];
+  dir_254ef4e2977de847e2030dceeab20b97->dir_8ce2dea2c70b96bce3071180a232ce85 [headlabel="1", labeldistance=1.5 headhref="dir_000026_000184.html"];
+}

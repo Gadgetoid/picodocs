@@ -1,0 +1,9 @@
+digraph "pico_stdio/include/pico/stdio" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_de2f0badc41db6c9a656efb6e0c67ac0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="pico" fontname="Helvetica", fontsize="10", URL="dir_de2f0badc41db6c9a656efb6e0c67ac0.html"]
+  dir_70bba8e3175d5ace3bdf17e80fdff9e7 [shape=box, label="stdio", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_70bba8e3175d5ace3bdf17e80fdff9e7.html"];
+  }
+}

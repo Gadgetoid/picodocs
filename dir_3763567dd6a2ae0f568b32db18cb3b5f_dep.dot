@@ -1,0 +1,15 @@
+digraph "hardware_rtc/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cfd27197968dc736507d601e66201822 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="hardware_rtc" fontname="Helvetica", fontsize="10", URL="dir_cfd27197968dc736507d601e66201822.html"]
+  subgraph clusterdir_3763567dd6a2ae0f568b32db18cb3b5f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_3763567dd6a2ae0f568b32db18cb3b5f.html"];
+    dir_3763567dd6a2ae0f568b32db18cb3b5f [shape=plaintext label="include"];
+    dir_1011e01e64112007c31e0fbb8912ccb4 [shape=box label="hardware" color="black" fillcolor="white" style="filled" URL="dir_1011e01e64112007c31e0fbb8912ccb4.html"];
+  }
+  }
+  dir_ee4ba4c32933fd9d1c9bce216e67756d [shape=box label="pico_base" fillcolor="white" style="filled" color="red" URL="dir_ee4ba4c32933fd9d1c9bce216e67756d.html"];
+  dir_1011e01e64112007c31e0fbb8912ccb4->dir_ee4ba4c32933fd9d1c9bce216e67756d [headlabel="1", labeldistance=1.5 headhref="dir_000104_000007.html"];
+}

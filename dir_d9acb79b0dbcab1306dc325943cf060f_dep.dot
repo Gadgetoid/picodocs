@@ -1,0 +1,11 @@
+digraph "pico_i2c_slave/include/pico" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e639b115481453e77349016575e01b43 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_e639b115481453e77349016575e01b43.html"]
+  dir_d9acb79b0dbcab1306dc325943cf060f [shape=box, label="pico", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d9acb79b0dbcab1306dc325943cf060f.html"];
+  }
+  dir_530b96b5c656eb30479af34adde28e10 [shape=box label="hardware_i2c" fillcolor="white" style="filled" color="red" URL="dir_530b96b5c656eb30479af34adde28e10.html"];
+  dir_d9acb79b0dbcab1306dc325943cf060f->dir_530b96b5c656eb30479af34adde28e10 [headlabel="1", labeldistance=1.5 headhref="dir_000155_000081.html"];
+}

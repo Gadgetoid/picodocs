@@ -1,0 +1,15 @@
+digraph "pico_bootrom/include/pico" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1e73ae4f0334050aa12b71502c446632 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_1e73ae4f0334050aa12b71502c446632.html"]
+  subgraph clusterdir_edcf0c1765b22b09fb5d34034e98696e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_edcf0c1765b22b09fb5d34034e98696e.html"];
+    dir_edcf0c1765b22b09fb5d34034e98696e [shape=plaintext label="pico"];
+    dir_abfc5240bdceab94cdeaaca2e812cd8c [shape=box label="bootrom" color="black" fillcolor="white" style="filled" URL="dir_abfc5240bdceab94cdeaaca2e812cd8c.html"];
+  }
+  }
+  dir_ee4ba4c32933fd9d1c9bce216e67756d [shape=box label="pico_base" fillcolor="white" style="filled" color="red" URL="dir_ee4ba4c32933fd9d1c9bce216e67756d.html"];
+  dir_edcf0c1765b22b09fb5d34034e98696e->dir_ee4ba4c32933fd9d1c9bce216e67756d [headlabel="1", labeldistance=1.5 headhref="dir_000129_000007.html"];
+}

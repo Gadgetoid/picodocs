@@ -1,0 +1,11 @@
+digraph "pico_stdio_usb/include/pico/stdio_usb" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4cf4bc5ad9bb02f4ea87e176fe9384e4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="pico" fontname="Helvetica", fontsize="10", URL="dir_4cf4bc5ad9bb02f4ea87e176fe9384e4.html"]
+  dir_1853b373622d364a36dd9f891a98903d [shape=box, label="stdio_usb", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1853b373622d364a36dd9f891a98903d.html"];
+  }
+  dir_f0c957ad2e3abb2db6adfe61901bbab6 [shape=box label="pico_usb_reset_interface" fillcolor="white" style="filled" color="red" URL="dir_f0c957ad2e3abb2db6adfe61901bbab6.html"];
+  dir_1853b373622d364a36dd9f891a98903d->dir_f0c957ad2e3abb2db6adfe61901bbab6 [headlabel="1", labeldistance=1.5 headhref="dir_000197_000038.html"];
+}

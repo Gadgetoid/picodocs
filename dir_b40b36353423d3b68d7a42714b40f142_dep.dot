@@ -1,0 +1,17 @@
+digraph "pico_stdio_usb/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e95d2442b8d99ef74a5b7988d32e6e66 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="pico_stdio_usb" fontname="Helvetica", fontsize="10", URL="dir_e95d2442b8d99ef74a5b7988d32e6e66.html"]
+  subgraph clusterdir_b40b36353423d3b68d7a42714b40f142 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b40b36353423d3b68d7a42714b40f142.html"];
+    dir_b40b36353423d3b68d7a42714b40f142 [shape=plaintext label="include"];
+    dir_4cf4bc5ad9bb02f4ea87e176fe9384e4 [shape=box label="pico" color="red" fillcolor="white" style="filled" URL="dir_4cf4bc5ad9bb02f4ea87e176fe9384e4.html"];
+  }
+  }
+  dir_f0c957ad2e3abb2db6adfe61901bbab6 [shape=box label="pico_usb_reset_interface" fillcolor="white" style="filled" color="red" URL="dir_f0c957ad2e3abb2db6adfe61901bbab6.html"];
+  dir_8ce2dea2c70b96bce3071180a232ce85 [shape=box label="pico_stdio" fillcolor="white" style="filled" color="red" URL="dir_8ce2dea2c70b96bce3071180a232ce85.html"];
+  dir_4cf4bc5ad9bb02f4ea87e176fe9384e4->dir_f0c957ad2e3abb2db6adfe61901bbab6 [headlabel="1", labeldistance=1.5 headhref="dir_000196_000038.html"];
+  dir_4cf4bc5ad9bb02f4ea87e176fe9384e4->dir_8ce2dea2c70b96bce3071180a232ce85 [headlabel="1", labeldistance=1.5 headhref="dir_000196_000184.html"];
+}

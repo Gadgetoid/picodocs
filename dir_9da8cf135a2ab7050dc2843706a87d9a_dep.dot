@@ -1,0 +1,15 @@
+digraph "hardware_uart/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fa32484ddcfb739fabe101c20b70de5a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="hardware_uart" fontname="Helvetica", fontsize="10", URL="dir_fa32484ddcfb739fabe101c20b70de5a.html"]
+  subgraph clusterdir_9da8cf135a2ab7050dc2843706a87d9a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_9da8cf135a2ab7050dc2843706a87d9a.html"];
+    dir_9da8cf135a2ab7050dc2843706a87d9a [shape=plaintext label="include"];
+    dir_89b8aaa6ef6397aadd794d6c2ad4ac75 [shape=box label="hardware" color="black" fillcolor="white" style="filled" URL="dir_89b8aaa6ef6397aadd794d6c2ad4ac75.html"];
+  }
+  }
+  dir_ee4ba4c32933fd9d1c9bce216e67756d [shape=box label="pico_base" fillcolor="white" style="filled" color="red" URL="dir_ee4ba4c32933fd9d1c9bce216e67756d.html"];
+  dir_89b8aaa6ef6397aadd794d6c2ad4ac75->dir_ee4ba4c32933fd9d1c9bce216e67756d [headlabel="1", labeldistance=1.5 headhref="dir_000113_000007.html"];
+}

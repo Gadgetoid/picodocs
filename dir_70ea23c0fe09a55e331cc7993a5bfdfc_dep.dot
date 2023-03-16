@@ -1,0 +1,18 @@
+digraph "pico_cyw43_arch/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_78978bac0f67f07f4fad1bc412eea8d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="pico_cyw43_arch" fontname="Helvetica", fontsize="10", URL="dir_78978bac0f67f07f4fad1bc412eea8d8.html"]
+  subgraph clusterdir_70ea23c0fe09a55e331cc7993a5bfdfc {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_70ea23c0fe09a55e331cc7993a5bfdfc.html"];
+    dir_70ea23c0fe09a55e331cc7993a5bfdfc [shape=plaintext label="include"];
+    dir_02eb54c2ac82db73b52757c73ebaddb6 [shape=box label="pico" color="red" fillcolor="white" style="filled" URL="dir_02eb54c2ac82db73b52757c73ebaddb6.html"];
+  }
+  }
+  dir_a9bad49c6feb32b30a0489a3284f07a6 [shape=box label="pico_async_context" fillcolor="white" style="filled" color="red" URL="dir_a9bad49c6feb32b30a0489a3284f07a6.html"];
+  dir_ee4ba4c32933fd9d1c9bce216e67756d [shape=box label="pico_base" fillcolor="white" style="filled" color="red" URL="dir_ee4ba4c32933fd9d1c9bce216e67756d.html"];
+  dir_02eb54c2ac82db73b52757c73ebaddb6->dir_a9bad49c6feb32b30a0489a3284f07a6 [headlabel="1", labeldistance=1.5 headhref="dir_000136_000123.html"];
+  dir_02eb54c2ac82db73b52757c73ebaddb6->dir_ee4ba4c32933fd9d1c9bce216e67756d [headlabel="1", labeldistance=1.5 headhref="dir_000136_000007.html"];
+  dir_a9bad49c6feb32b30a0489a3284f07a6->dir_ee4ba4c32933fd9d1c9bce216e67756d [headlabel="1", labeldistance=1.5 headhref="dir_000123_000007.html"];
+}
