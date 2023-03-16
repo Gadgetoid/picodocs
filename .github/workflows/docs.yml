@@ -1,0 +1,57 @@
+name: PicoDocs
+
+on:
+  push:
+  pull_request:
+  release:
+    types: [created]
+
+env:
+  SDK_VERSION: "1.5.0"
+
+jobs:
+  build:
+    name: Build Docs
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Install Deps
+      if: runner.os == 'Linux'
+      run: |
+        sudo apt update && sudo apt install gcc-arm-none-eabi doxygen
+  
+    - name: Checkout PicoDocs
+      uses: actions/checkout@v3
+      with:
+        path: picodocs
+
+    - name: Checkout Pico SDK
+      uses: actions/checkout@v3
+      with:
+        repository: raspberrypi/pico-sdk
+        ref: ${{env.SDK_VERSION}}
+        path: pico-sdk
+  
+    - name: Configure Pico SDK
+      shell: bash
+      working-directory: pico-sdk
+      run: |
+        cmake -S . -B build -DPICO_BUILD_DOCS=1
+
+    - name: Build Pico SDK Docs
+      shell: bash
+      working-directory: pico-sdk
+      run: |
+        cmake --build build --target docs -j 2
+
+    - name: Upload As Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: pico-sdk-${{env.SDK_VERSION}}-docs
+        path: pico-sdk/build/docs/doxygen/html
+
+    - name: Publish To Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: pico-sdk/build/docs/doxygen/html
+          cname: picodocs.pinout.xyz
